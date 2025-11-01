@@ -18,7 +18,6 @@ sudo apt upgrade
 🧩 Step 2: Install Required Libraries
 
 ```bash
-Copy code
 sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libyaml-dev
 ```
 
@@ -27,7 +26,6 @@ These are essential packages Ruby needs to compile properly.
 🧱 Step 3: Install rbenv and ruby-build
 
 ```bash
-Copy code
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 ~/.rbenv/bin/rbenv init
 ```
@@ -37,7 +35,6 @@ Close and reopen the terminal.
 Then install ruby-build:
 
 ```bash
-Copy code
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
@@ -45,13 +42,11 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 Verify installation:
 
 ```bash
-Copy code
 rbenv -v
 ```
 
 💎 Step 4: Install Ruby
 ```bash
-Copy code
 rbenv install 3.3.5 --verbose
 rbenv global 3.3.5
 ruby -v
