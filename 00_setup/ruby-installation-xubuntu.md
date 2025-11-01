@@ -55,4 +55,4 @@ ruby -v
 If you see output like ruby 3.3.5, congratulations — Ruby is installed! 🎉
 
 📽 Watch the full video walkthrough:
-Install Ruby on Xubuntu (YouTube)
+[Install Ruby on Xubuntu (YouTube)](https://www.youtube.com/watch?v=L0275goPFYc)
