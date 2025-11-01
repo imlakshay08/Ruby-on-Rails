@@ -12,8 +12,8 @@ Open your terminal with **Ctrl + Alt + T** and run:
 ```bash
 sudo apt update
 sudo apt upgrade
-(Enter your password and press Y when prompted.)
 ```
+(Enter your password and press Y when prompted.)
 
 🧩 Step 2: Install Required Libraries
 
