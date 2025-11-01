@@ -13,6 +13,7 @@ Open your terminal with **Ctrl + Alt + T** and run:
 sudo apt update
 sudo apt upgrade
 ```
+
 (Enter your password and press Y when prompted.)
 
 🧩 Step 2: Install Required Libraries
