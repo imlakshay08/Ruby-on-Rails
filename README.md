@@ -1,56 +1,309 @@
-# 🚀 Ruby on Rails — The Complete Practical Guide
+# Ruby on Rails — Learning in Public
 
-Welcome to this **open-source learning repository** on **Ruby on Rails** —  
-a complete, step-by-step journey to mastering Rails development from scratch.
+![progress](https://img.shields.io/badge/progress-0%25-lightgrey)
+![status](https://img.shields.io/badge/status-active-brightgreen)
+![last update](https://img.shields.io/badge/last%20update-2026--09--18-blue)
 
-Whether you’re a beginner exploring web development or a developer looking to truly understand *how Rails works under the hood*, this repo is your roadmap.  
-All learnings are aligned with **The Odin Project** curriculum — but adapted, expanded, and deeply practical.
+Public log of me working through —
+Ruby fundamentals → Rails internals → SQL → testing → architecture →
+infra → system design → AI-native engineering, run in parallel with a
+career track. Everything here is real notes from real work, not a
+polished highlight reel — including the stuff I got wrong.
 
----
-
-## 🎯 Goal
-
-To **learn**, **document**, and **build real-world Ruby on Rails projects** — starting from the basics of Ruby to deploying production-grade Rails apps.  
-
-Every commit, blog, and video represents a small milestone in this long-term learning journey.
-
----
-
-## 🌐 Follow the Learning Journey
-
-This repository is the **central hub** of my Ruby on Rails learning ecosystem.  
-You can explore detailed tutorials, blogs, and micro-lessons on these platforms 👇
-
-| Platform | Type of Content | Link |
-|-----------|-----------------|------|
-| 🎥 **YouTube** | Full-length tutorials & walkthroughs | [Watch Here](https://youtube.com/@imlakshay08) |
-| 🧠 **Blogs (Hashnode / Dev.to / Medium)** | Deep-dive articles & technical notes | [Read Blogs](https://hashnode.com/@imlakshay08) |
-| 💬 **Showwcase / daily.dev** | Project updates & dev discussions |  |
-| 📱 **Instagram** | Short-form Rails tips & visual snippets |  |
-| 💻 **GitHub** | Code examples, exercises & projects | *You’re already here!* 😄 |
+> **How to use this template:** replace the checklist items below with
+> your own roadmap, update the progress badge by hand (or wire up the
+> GitHub Action in `.github/workflows/progress-badge.yml`, see bottom),
+> and open one Issue per topic as you go — link it next to the checkbox.
 
 ---
 
-### 🧩 Platform Roles
+## How this repo works
 
-| Platform | Purpose |
-|-----------|----------|
-| **GitHub** | Code, exercises & projects |
-| **YouTube** | Long-form tutorials |
-| **Blogs** | In-depth learning notes |
-| **Instagram** | Bite-sized tips & highlights |
-| **Showwcase / daily.dev** | Developer community presence |
+- **This README** — the index. One glance tells you where I am.
+- **[Project board](../../projects)** — kanban view of every topic (Not Started / In Progress / Done).
+- **[Issues](../../issues)** — one per topic. Notes, code snippets, what I got wrong, what an AI agent got wrong that I caught.
+- **`logs/`** — short dated weekly entries. Raw material for future interview stories.
+- **Linked repos** — real builds get their own repo with a proper README (problem → decisions → tradeoffs → outcome). Linked from the relevant phase below.
 
 ---
 
-## 📜 License
+## Progress
 
-This repository is open-source under the **MIT License**.  
-Feel free to fork, learn, and build upon it — just don’t forget to share what you learn back with the community ❤️
+| Phase | Status | Topics done |
+|---|---|---|
+| [0 · Ruby fundamentals](#phase-0--ruby-the-language) | 🟡 Not started | 0/15 |
+| [1 · Rails internals & ActiveRecord](#phase-1--rails-internals--activerecord) | 🟡 Not started | 0/19 |
+| [2 · SQL & databases](#phase-2--sql--databases) | 🟡 Not started | 0/19 |
+| [3 · Testing](#phase-3--testing) | 🟡 Not started | 0/21 |
+| [4 · Design & architecture](#phase-4--design--architecture) | 🟡 Not started | 0/16 |
+| [5 · Infra & DevOps](#phase-5--infra--devops) | 🟡 Not started | 0/24 |
+| [6 · System design & scale](#phase-6--system-design--scale) | 🟡 Not started | 0/19 |
+| [7 · Modern Rails ecosystem](#phase-7--modern-rails-ecosystem) | 🟡 Not started | 0/14 |
+| [8 · AI-native engineering](#phase-8--ai-native-engineering) | 🟡 Not started | 0/17 (ongoing, runs in parallel) |
+| [Career track](#career-track) | 🟡 Not started | ongoing, runs in parallel |
+
+Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 
 ---
 
-### 👋 Thank You for Visiting!
-If you’re also learning Ruby on Rails or following *The Odin Project*,  
-let’s connect and grow together 🚀
+## Phase 0 · Ruby, the language
 
+<!-- Issue: link here once opened, e.g. → #1 -->
+
+- [ ] Object model — classes, modules, instances
+- [ ] Blocks, procs, lambdas
+- [ ] Symbols vs strings
+- [ ] Enumerable: map, select, reduce, each_with_object
+- [ ] Mixins: include vs extend vs prepend
+- [ ] method_missing / respond_to_missing?
+- [ ] Error handling: rescue, raise, ensure, custom exceptions
+- [ ] Frozen objects, immutability
+- [ ] Singleton classes / eigenclass
+- [ ] Garbage collection basics
+- [ ] Memory & object allocation
+- [ ] Fibers & concurrency basics
+- [ ] Big-O and complexity analysis
+- [ ] Core data structures (arrays, hashes, stacks, queues, trees, graphs)
+- [ ] 30+ Exercism Ruby exercises
+
+## Phase 1 · Rails internals & ActiveRecord
+
+- [ ] Associations: all types, polymorphic, self-referential
+- [ ] Query interface: where, joins, includes, preload, eager_load
+- [ ] N+1 detection and fixes (Bullet)
+- [ ] Scopes: named, default, chaining
+- [ ] Callback lifecycle, ordering
+- [ ] Validations: built-in and custom
+- [ ] Transactions, save points
+- [ ] Optimistic vs pessimistic locking
+- [ ] STI — when to avoid it
+- [ ] Counter caches, touch: true
+- [ ] find_each vs each
+- [ ] Arel
+- [ ] Request lifecycle end to end
+- [ ] Rack & middleware
+- [ ] Routing: concerns, constraints, nesting
+- [ ] Strong params, rescue_from
+- [ ] Concerns — good and bad usage
+- [ ] Engines
+- [ ] Zeitwerk autoloading
+
+## Phase 2 · SQL & databases
+
+- [ ] SELECT/WHERE/ORDER BY/LIMIT without AR
+- [ ] All JOIN types
+- [ ] Aggregations: GROUP BY, HAVING
+- [ ] Subqueries vs CTEs
+- [ ] Window functions
+- [ ] EXPLAIN / EXPLAIN ANALYZE
+- [ ] Indexes: B-tree, composite, partial, expression
+- [ ] Why the planner ignores an index
+- [ ] ACID, isolation levels
+- [ ] Deadlocks
+- [ ] JSONB
+- [ ] Array columns / hstore
+- [ ] Full-text search (tsvector/tsquery)
+- [ ] pg_stat_statements
+- [ ] Connection pooling (PgBouncer)
+- [ ] Normalization / intentional denormalization
+- [ ] Soft deletes
+- [ ] UUID vs integer PKs
+- [ ] Zero-downtime migrations (strong_migrations)
+
+## Phase 3 · Testing
+
+- [ ] describe/context/it structure
+- [ ] let, let!, subject
+- [ ] before/after hooks
+- [ ] Core matchers
+- [ ] Shared examples/contexts
+- [ ] Custom matchers
+- [ ] Model specs
+- [ ] Request specs
+- [ ] Capybara integration tests
+- [ ] Service object specs
+- [ ] Job specs
+- [ ] Mailer specs
+- [ ] Doubles: instance_double, class_double
+- [ ] allow/expect
+- [ ] WebMock/VCR
+- [ ] Recognizing over-mocking
+- [ ] FactoryBot: create/build/build_stubbed, traits
+- [ ] Red-green-refactor, practiced for real
+- [ ] Outside-in TDD
+- [ ] Test pyramid
+- [ ] SimpleCov — reading it correctly
+
+## Phase 4 · Design & architecture
+
+- [ ] Service objects
+- [ ] Form objects
+- [ ] Query objects
+- [ ] Decorators/presenters
+- [ ] Policy objects
+- [ ] Value objects
+- [ ] Observer pattern
+- [ ] Repository pattern
+- [ ] SOLID with Rails examples
+- [ ] Composition over inheritance
+- [ ] Law of Demeter
+- [ ] DRY vs WET judgment calls
+- [ ] Refactoring: code smells, extract method/class
+- [ ] Hexagonal/clean architecture in Rails
+- [ ] DDD basics: entities, value objects, aggregates
+- [ ] Event sourcing basics
+
+## Phase 5 · Infra & DevOps
+
+- [ ] Linux permissions, processes, signals
+- [ ] Networking basics (TCP/IP, DNS, HTTP/S)
+- [ ] SSH keys & tunneling
+- [ ] Bash scripting, cron
+- [ ] Log management
+- [ ] Containers vs VMs
+- [ ] Production Dockerfile for Rails
+- [ ] docker-compose for local dev
+- [ ] Multi-stage builds
+- [ ] Container registries
+- [ ] GitHub Actions workflows
+- [ ] Pipeline stages: lint → test → build → deploy
+- [ ] Staging → production promotion
+- [ ] Secrets management in CI
+- [ ] EC2 basics
+- [ ] S3 + Active Storage
+- [ ] RDS
+- [ ] IAM least-privilege
+- [ ] Load balancers, SSL termination
+- [ ] ElastiCache
+- [ ] Puma config
+- [ ] Nginx reverse proxy
+- [ ] Let's Encrypt / TLS
+- [ ] Error tracking, APM, structured logging
+
+## Phase 6 · System design & scale
+
+- [ ] Fragment/Russian-doll/low-level caching
+- [ ] HTTP caching headers
+- [ ] CDNs
+- [ ] Sidekiq internals
+- [ ] Memory profiling
+- [ ] DB perf tuning, autovacuum
+- [ ] Horizontal vs vertical scaling
+- [ ] Read replicas
+- [ ] Eventual consistency
+- [ ] Message queues (Redis/Kafka concepts)
+- [ ] REST API design, versioning, pagination
+- [ ] ActionCable/WebSockets
+- [ ] Rack::Attack rate limiting
+- [ ] Idempotency
+- [ ] OWASP Top 10 in Rails
+- [ ] Mass assignment / strong params
+- [ ] bcrypt / has_secure_password
+- [ ] JWT / OAuth 2.0
+- [ ] Brakeman
+
+## Phase 7 · Modern Rails ecosystem
+
+- [ ] Hotwire: Turbo Drive/Frames/Streams
+- [ ] Stimulus
+- [ ] ViewComponent
+- [ ] Rails API mode
+- [ ] Active Storage variants
+- [ ] Action Mailbox
+- [ ] Solid Queue / Solid Cache
+- [ ] Kredis
+- [ ] Pundit internals
+- [ ] Devise internals
+- [ ] Sidekiq retry/failure handling
+- [ ] Pagy
+- [ ] Searchkick + Elasticsearch
+- [ ] RuboCop, custom cops
+
+## Phase 8 · AI-native engineering
+*(runs in parallel from week 1 — not a phase you "get to" later)*
+
+- [ ] Using a coding agent well: scoping, context, reviewing diffs critically
+- [ ] LLM API basics: streaming, system prompts, params
+- [ ] Structured outputs
+- [ ] Tool/function calling
+- [ ] Embeddings & vector search
+- [ ] RAG
+- [ ] Building an evaluation set
+- [ ] Latency/cost tradeoffs
+- [ ] Prompt-injection defenses
+- [ ] AI observability
+- [ ] Agent architecture
+- [ ] One real AI feature shipped end to end
+- [ ] Daily agent use on real work
+- [ ] Engineering journal: output → defect → lesson
+- [ ] Alternative-implementation comparisons
+- [ ] Periodic no-AI practice to keep fluency sharp
+
+> **Ground rule for everything documented in this repo:** learn the
+> concept myself first, attempt the problem myself, *then* use an agent
+> for critique or implementation — and verify what it gives me with
+> tests, source, benchmarks, or production evidence before it goes in
+> a commit or a log entry.
+
+## Career track
+*(parallel, not sequential)*
+
+- [ ] STAR stories from real projects
+- [ ] Case study per shipped project
+- [ ] Bullet + RuboCop + Brakeman on a real project, documented
+- [ ] Dockerized project + CI pipeline, public
+- [ ] One open-source contribution
+- [ ] Mock interviews
+- [ ] Applying continuously as skills improve
+
+---
+
+## Logs
+
+Weekly notes live in [`logs/`](logs/) — `YYYY-Www.md`, 3–5 bullets:
+what I learned, what I built, one thing I caught an AI agent getting
+wrong. Raw material for interview stories later.
+
+## Real projects
+
+| Project | What it is | Repo |
+|---|---|---|
+| _(add as you build)_ | | |
+
+---
+
+<details>
+<summary>Optional: auto-updating progress badge</summary>
+
+Drop this at `.github/workflows/progress-badge.yml` to recompute the
+percentage of checked boxes in this README on every push and update
+the badge automatically (uses `githubocto/flat-data`-style approach —
+simplest version below just counts `- [x]` vs `- [ ]` and rewrites the
+shields.io URL at the top of this file via a small script). Swap in
+whatever badge tooling you prefer — this is a starting point, not a
+requirement.
+
+```yaml
+name: progress-badge
+on:
+  push:
+    paths: ["README.md"]
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute and update progress
+        run: |
+          total=$(grep -o '\- \[.\]' README.md | wc -l)
+          done=$(grep -o '\- \[x\]' README.md | wc -l)
+          pct=$(( done * 100 / total ))
+          sed -i "s/progress-[0-9]*%25-[a-z]*/progress-${pct}%25-brightgreen/" README.md
+          git config user.name "progress-bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "chore: update progress badge to ${pct}%" || echo "no changes"
+          git push
+```
+
+</details>
