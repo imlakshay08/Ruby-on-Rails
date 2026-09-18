@@ -52,7 +52,7 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 
 <!-- Issue: link here once opened, e.g. → #1 -->
 
-- [ ] Object model — classes, modules, instances
+- [ ] Object model — classes, modules, instances ` (#1)`
 - [ ] Blocks, procs, lambdas
 - [ ] Symbols vs strings
 - [ ] Enumerable: map, select, reduce, each_with_object
