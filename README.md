@@ -35,10 +35,10 @@ polished highlight reel — including the stuff I got wrong.
 | [1 · Rails internals & ActiveRecord](#phase-1--rails-internals--activerecord) | 🟡 Not started | 0/19 |
 | [2 · SQL & databases](#phase-2--sql--databases) | 🟡 Not started | 0/19 |
 | [3 · Testing](#phase-3--testing) | 🟡 Not started | 0/21 |
-| [4 · Design & architecture](#phase-4--design--architecture) | 🟡 Not started | 0/16 |
-| [5 · Infra & DevOps](#phase-5--infra--devops) | 🟡 Not started | 0/24 |
-| [6 · System design & scale](#phase-6--system-design--scale) | 🟡 Not started | 0/19 |
-| [7 · Modern Rails ecosystem](#phase-7--modern-rails-ecosystem) | 🟡 Not started | 0/14 |
+| [4 · Design & architecture](#phase-4--design--architecture) | 🟡 Not started | 0/18 |
+| [5 · Infra & DevOps](#phase-5--infra--devops) | 🟡 Not started | 0/25 |
+| [6 · System design & scale](#phase-6--system-design--scale) | 🟡 Not started | 0/20 |
+| [7 · Modern Rails ecosystem](#phase-7--modern-rails-ecosystem) | 🟡 Not started | 0/15 |
 | [8 · AI-native engineering](#phase-8--ai-native-engineering) | 🟡 Not started | 0/17 (ongoing, runs in parallel) |
 | [9 · Platform breadth](#phase-9--platform-breadth) | 🟡 Not started | 0/28 |
 | [10 · ML fundamentals, leadership & business](#phase-10--ml-fundamentals-leadership--business) | 🟡 Not started | 0/14 |
@@ -154,6 +154,8 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 - [ ] Hexagonal/clean architecture in Rails
 - [ ] DDD basics: entities, value objects, aggregates
 - [ ] Event sourcing basics
+- [ ] Multi-tenancy: row-based vs schema-based (apartment gem) vs separate databases
+- [ ] Feature flags: Flipper or similar — shipping behind flags instead of long-lived branches
 
 ## Phase 5 · Infra & DevOps
 
@@ -171,6 +173,7 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 - [ ] Pipeline stages: lint → test → build → deploy
 - [ ] Staging → production promotion
 - [ ] Secrets management in CI
+- [ ] Rails credentials: credentials.yml.enc, master.key, per-environment credentials
 - [ ] EC2 basics
 - [ ] S3 + Active Storage
 - [ ] RDS
@@ -198,6 +201,7 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 - [ ] ActionCable/WebSockets
 - [ ] Rack::Attack rate limiting
 - [ ] Idempotency
+- [ ] Webhooks: designing outbound webhooks and verifying signatures on inbound ones
 - [ ] OWASP Top 10 in Rails
 - [ ] Mass assignment / strong params
 - [ ] bcrypt / has_secure_password
@@ -214,6 +218,7 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 - [ ] Action Mailbox
 - [ ] Solid Queue / Solid Cache
 - [ ] Kredis
+- [ ] I18n: locale files, pluralization rules, translating a real view
 - [ ] Pundit internals
 - [ ] Devise internals
 - [ ] Sidekiq retry/failure handling
@@ -339,6 +344,7 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 - [ ] Bullet + RuboCop + Brakeman on a real project, documented
 - [ ] Dockerized project + CI pipeline, public
 - [ ] One open-source contribution
+- [ ] Git workflow as a skill: clean rebases, trunk-based dev, PRs that are easy to review
 - [ ] Mock interviews
 - [ ] Applying continuously as skills improve
 
