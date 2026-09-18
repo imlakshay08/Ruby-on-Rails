@@ -52,7 +52,7 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 
 <!-- Issue: link here once opened, e.g. → #1 -->
 
-- [ ] - [ ] Object model — classes, modules, instances [(#1)](https://github.com/imlakshay08/Ruby-on-Rails/issues/1)
+- [ ] Object model — classes, modules, instances [(#1)](https://github.com/imlakshay08/Ruby-on-Rails/issues/1)
 - [ ] Blocks, procs, lambdas
 - [ ] Symbols vs strings
 - [ ] Enumerable: map, select, reduce, each_with_object
