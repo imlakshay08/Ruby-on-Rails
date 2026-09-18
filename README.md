@@ -40,6 +40,8 @@ polished highlight reel — including the stuff I got wrong.
 | [6 · System design & scale](#phase-6--system-design--scale) | 🟡 Not started | 0/19 |
 | [7 · Modern Rails ecosystem](#phase-7--modern-rails-ecosystem) | 🟡 Not started | 0/14 |
 | [8 · AI-native engineering](#phase-8--ai-native-engineering) | 🟡 Not started | 0/17 (ongoing, runs in parallel) |
+| [9 · Platform breadth](#phase-9--platform-breadth) | 🟡 Not started | 0/28 |
+| [10 · ML fundamentals, leadership & business](#phase-10--ml-fundamentals-leadership--business) | 🟡 Not started | 0/14 |
 | [Career track](#career-track) | 🟡 Not started | ongoing, runs in parallel |
 
 Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
@@ -244,6 +246,90 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 > for critique or implementation — and verify what it gives me with
 > tests, source, benchmarks, or production evidence before it goes in
 > a commit or a log entry.
+>
+> **Phases 9–10** widen the foundation from Phases 0–6 into platform
+> breadth and the influence/ML/business judgment the staff-principal
+> track expects. They land best once 0–6 are solid — sequence
+> accordingly rather than skipping ahead.
+
+## Phase 9 · Platform breadth
+*Frontend, distributed systems, Kubernetes, polyglot, security, formal CS*
+
+**Frontend depth**
+- [ ] A real JS framework (React/Vue) beyond Hotwire/Stimulus
+- [ ] Client-side state management fundamentals
+- [ ] CSS fundamentals & a design system beyond utility classes
+- [ ] Accessibility basics (semantic HTML, keyboard nav, ARIA)
+
+**Distributed systems at real scale**
+- [ ] CAP theorem in practice
+- [ ] Sharding & partitioning strategies
+- [ ] Multi-region architecture — replication lag, failover
+- [ ] Service decomposition — when to actually split a monolith
+- [ ] Consensus basics (Raft/Paxos) — enough to reason about it
+
+**Kubernetes & orchestration**
+- [ ] Pods, deployments, services
+- [ ] ConfigMaps/Secrets, readiness/liveness probes
+- [ ] Autoscaling (HPA), rolling deploys
+- [ ] Run a Rails app on K8s end to end, once
+
+**Polyglot breadth**
+- [ ] One language outside Ruby to production-comfort level (Go/Python common picks)
+- [ ] That language's concurrency model, compared honestly to Ruby's
+- [ ] Reading a codebase in it without mentally translating back to Ruby
+
+**Security engineering depth**
+- [ ] Threat modeling a real system (not just running Brakeman)
+- [ ] Auth deep dive: sessions vs tokens, refresh flows, SSO/SAML basics
+- [ ] Secrets management/rotation at the infra level
+- [ ] Compliance basics: what SOC2/GDPR require day to day
+- [ ] Incident response — the first hour of a real breach
+
+**Formal CS depth**
+- [ ] Algorithms beyond interview-prep level
+- [ ] OS scheduling & memory management, past "it just works"
+- [ ] How a compiler/interpreter works, in broad strokes
+- [ ] Networking beyond HTTP: TCP internals, LB algorithms
+
+**Books & resources**
+- *Kubernetes Up & Running* — Hightower, Burns, Beda
+- *The Go Programming Language* — Donovan & Kernighan
+- *The Web Application Hacker's Handbook*
+- *Operating Systems: Three Easy Pieces* (free online)
+- [react.dev/learn](https://react.dev/learn) · [Kubernetes tutorials](https://kubernetes.io/docs/tutorials/) · [A Tour of Go](https://go.dev/tour/) · [OWASP Top 10](https://owasp.org/www-project-top-ten/) · [System Design Primer](https://github.com/donnemartin/system-design-primer)
+
+## Phase 10 · ML fundamentals, leadership & business
+*From strong IC to someone trusted with more than code*
+
+**ML/AI beyond API usage**
+- [ ] Core ML concepts: supervised/unsupervised, overfitting, train/test splits
+- [ ] How a transformer works, conceptually
+- [ ] Fine-tuning vs prompting vs RAG — when each is right
+- [ ] Train or fine-tune a small model yourself, once
+- [ ] Where "AI application engineering" (Phase 8) stops and ML engineering starts
+
+**Leadership & influence**
+- [ ] Write an RFC that survives scrutiny from people who disagree
+- [ ] Mentor — actually pair with and unblock someone less experienced
+- [ ] Drive a cross-team decision without formal authority
+- [ ] Give and receive critical code review well
+- [ ] Run a postmortem that improves the system, not assigns blame
+
+**Product & business judgment**
+- [ ] Basic cost modeling for a feature or scaling decision
+- [ ] Prioritization frameworks (RICE, cost of delay)
+- [ ] Read a P&L / unit economics well enough to follow the "why"
+- [ ] Translate engineering tradeoffs for non-engineers
+- [ ] Know when "good enough" is the correct engineering answer
+
+**Books & resources**
+- *Hands-On Machine Learning* — Aurélien Géron
+- *Designing Machine Learning Systems* — Chip Huyen
+- *The Staff Engineer's Path* — Tanya Reilly
+- *The Manager's Path* — Camille Fournier
+- *Staff Engineer* — Will Larson
+- [fast.ai](https://course.fast.ai) · [Hugging Face courses](https://huggingface.co/learn) · [StaffEng.com](https://staffeng.com) · [Reforge blog](https://www.reforge.com/blog)
 
 ## Career track
 *(parallel, not sequential)*
