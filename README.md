@@ -31,7 +31,7 @@ polished highlight reel — including the stuff I got wrong.
 
 | Phase | Status | Topics done |
 |---|---|---|
-| [0 · Ruby fundamentals](#phase-0--ruby-the-language) | 🟡 Not started | 0/15 |
+| [0 · Ruby fundamentals](#phase-0--ruby-the-language) | 🔵 In progress | 0/15 |
 | [1 · Rails internals & ActiveRecord](#phase-1--rails-internals--activerecord) | 🟡 Not started | 0/19 |
 | [2 · SQL & databases](#phase-2--sql--databases) | 🟡 Not started | 0/19 |
 | [3 · Testing](#phase-3--testing) | 🟡 Not started | 0/21 |
@@ -56,8 +56,8 @@ Legend: 🟡 Not started · 🔵 In progress · 🟢 Done
 - [ ] Blocks, procs, lambdas
 - [ ] Symbols vs strings
 - [ ] Enumerable: map, select, reduce, each_with_object
-- [ ] Mixins: include vs extend vs prepend
-- [ ] method_missing / respond_to_missing?
+- [ ] Mixins: include vs extend vs prepend [(#2)](https://github.com/imlakshay08/Ruby-on-Rails/issues/2)
+- [ ] method_missing / respond_to_missing? [(#3)](https://github.com/imlakshay08/Ruby-on-Rails/issues/3)
 - [ ] Error handling: rescue, raise, ensure, custom exceptions
 - [ ] Frozen objects, immutability
 - [ ] Singleton classes / eigenclass
